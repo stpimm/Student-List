@@ -1,0 +1,62 @@
+[
+  {
+    "StudentID": "25001",
+    "Name": "Haruto Tanaka",
+    "Address": "Jl. Merdeka No. 123, Jakarta, Indonesia",
+    "ProfileImg": "https://images.pexels.com/photos/2100063/pexels-photo-2100063.jpeg"
+  },
+  {
+    "StudentID": "25002",
+    "Name": "Mei Lin Chen",
+    "Address": "Jl. Jenderal Sudirman No. 456, Surabaya, Indonesia",
+    "ProfileImg": "https://images.pexels.com/photos/8864283/pexels-photo-8864283.jpeg"
+  },
+  {
+    "StudentID": "25003",
+    "Name": "Raj Patel",
+    "Address": "Jl. Gatot Subroto No. 789, Bandung, Indonesia",
+    "ProfileImg": "https://images.pexels.com/photos/15664597/pexels-photo-15664597/free-photo-of-portrait-of-man.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "StudentID": "25004",
+    "Name": "Aisha Khan",
+    "Address": "Jl. Thamrin No. 101, Yogyakarta, Indonesia",
+    "ProfileImg": "https://images.pexels.com/photos/11506216/pexels-photo-11506216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "StudentID": "25005",
+    "Name": "Yuki Hiroshi",
+    "Address": "Jl. Diponegoro No. 202, Medan, Indonesia",
+    "ProfileImg": "https://images.pexels.com/photos/18896487/pexels-photo-18896487/free-photo-of-outdoor-moody-portrait-photography-berlin-vintage-style.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "StudentID": "25006",
+    "Name": "Hana Suzuki",
+    "Address": "Jl. Sudirman No. 303, Makassar, Indonesia",
+    "ProfileImg": "https://images.pexels.com/photos/17045026/pexels-photo-17045026/free-photo-of-a-woman-in-a-yellow-jacket-and-colorful-beads.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "StudentID": "25007",
+    "Name": "Kai Chen",
+    "Address": "Jl. Thamrin No. 404, Semarang, Indonesia",
+    "ProfileImg": "https://images.pexels.com/photos/18405265/pexels-photo-18405265/free-photo-of-a-woman-in-a-red-sari-holding-a-bowl.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "StudentID": "25008",
+    "Name": "Nina Kim",
+    "Address": "Jl. Pahlawan No. 505, Malang, Indonesia",
+    "ProfileImg": "https://images.pexels.com/photos/17103361/pexels-photo-17103361/free-photo-of-beautiful-woman.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "StudentID": "25009",
+    "Name": "Ravi Sharma",
+    "Address": "Jl. Gatot Subroto No. 606, Denpasar, Indonesia",
+    "ProfileImg": "https://images.pexels.com/photos/18036889/pexels-photo-18036889/free-photo-of-simple-boys-pose-for-photoshoot.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "StudentID": "25010",
+    "Name": "Sakura Tanaka",
+    "Address": "Jl. Thamrin No. 707, Banda Aceh, Indonesia",
+    "ProfileImg": "https://images.pexels.com/photos/18157365/pexels-photo-18157365/free-photo-of-the-beauty-of-the-south-or-baduy-banten.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  }
+]
