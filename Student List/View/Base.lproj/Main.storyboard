@@ -62,17 +62,20 @@
                                 <color key="textColor" systemColor="systemPinkColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="students" translatesAutoresizingMaskIntoConstraints="NO" id="Zjf-tk-gd1">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="students" translatesAutoresizingMaskIntoConstraints="NO" id="Zjf-tk-gd1">
                                 <rect key="frame" x="76" y="59" width="240" height="233"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Mdr-c6-DyV"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="Mdr-c6-DyV" firstAttribute="trailing" secondItem="Zjf-tk-gd1" secondAttribute="trailing" constant="77" id="28A-7z-wyx"/>
+                            <constraint firstItem="Zjf-tk-gd1" firstAttribute="top" secondItem="Mdr-c6-DyV" secondAttribute="top" id="H6y-Ef-QpK"/>
                             <constraint firstItem="Mdr-c6-DyV" firstAttribute="trailing" secondItem="lM3-oQ-BcI" secondAttribute="trailing" constant="30" id="Jmq-nC-FTT"/>
                             <constraint firstItem="Mdr-c6-DyV" firstAttribute="bottom" secondItem="lM3-oQ-BcI" secondAttribute="bottom" constant="300" id="RKu-Jq-6nd"/>
+                            <constraint firstItem="Mdr-c6-DyV" firstAttribute="bottom" secondItem="Zjf-tk-gd1" secondAttribute="bottom" constant="526" id="S3d-39-6Hk"/>
                             <constraint firstItem="lM3-oQ-BcI" firstAttribute="leading" secondItem="Mdr-c6-DyV" secondAttribute="leading" constant="30" id="kZB-8G-uCN"/>
+                            <constraint firstItem="Zjf-tk-gd1" firstAttribute="leading" secondItem="Mdr-c6-DyV" secondAttribute="leading" constant="76" id="l9b-XC-Jw8"/>
                         </constraints>
                     </view>
                     <connections>
@@ -109,7 +112,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="T2P-Y3-NG6">
                                                     <rect key="frame" x="108" y="9" width="253" height="26"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -151,7 +154,7 @@
                                 </prototypes>
                             </tableView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="students" translatesAutoresizingMaskIntoConstraints="NO" id="sUa-sQ-o0N">
-                                <rect key="frame" x="133" y="41" width="127" height="90"/>
+                                <rect key="frame" x="152" y="49" width="89" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
