@@ -1,6 +1,6 @@
 # Student-List
 Swift Student List using Swift 5 and UIKit
 
-<img src="https://github.com/stpimm/Student-List/raw/main/assets/66082265/a46b4151-d160-412b-8463-b28853c763c9.png" width="300" alt="Screenshot 1">
+![Simulator Screenshot - iPhone 14 Pro - 2023-12-01 at 05 08 34](https://github.com/stpimm/Student-List/assets/66082265/c34fe8b7-40fe-4740-a651-56c7f9a5098b)
 
-<img src="https://github.com/stpimm/Student-List/raw/main/assets/66082265/c815c534-4227-4cb6-be9b-3296baa9e9ae.png" width="300" alt="Screenshot 2">
+![Simulator Screenshot - iPhone 14 Pro - 2023-12-01 at 05 09 27](https://github.com/stpimm/Student-List/assets/66082265/608671dc-8998-4c5e-886e-606348849212)
