@@ -16,6 +16,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        setupTextField(usernameTextField)
+        setupTextField(passwordTextField)
+        
         usernameTextField.delegate = self
         passwordTextField.delegate = self
 
@@ -44,5 +47,24 @@ class ViewController: UIViewController, UITextFieldDelegate {
         return true
     }
     
+    private func setupTextField(_ textField: UITextField) {
+        textField.backgroundColor = UIColor.white
+        textField.textColor = UIColor.black
+        
+        let placeholderText = textField.placeholder ?? ""
+            let attributes: [NSAttributedString.Key: Any] = [
+                .foregroundColor: UIColor.gray,
+            ]
+            textField.attributedPlaceholder = NSAttributedString(string: placeholderText, attributes: attributes)
+        
+        textField.layer.borderColor = UIColor.black.cgColor
+        textField.layer.borderWidth = 1.0
+        textField.layer.cornerRadius = 3.5
+        textField.layer.masksToBounds = true
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .darkContent
+    }
     
 }

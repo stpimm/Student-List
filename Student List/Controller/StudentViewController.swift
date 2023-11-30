@@ -12,6 +12,14 @@ class StudentTableViewCell: UITableViewCell {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var studentIDLabel: UILabel!
     @IBOutlet weak var addressLabel: UILabel!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        profileImageView.layer.cornerRadius = profileImageView.frame.size.width / 10
+        profileImageView.clipsToBounds = true
+
+        addressLabel.numberOfLines = 0
+    }
 }
 
 class StudentListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
@@ -22,7 +30,11 @@ class StudentListViewController: UIViewController, UITableViewDataSource, UITabl
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        tableView.separatorInset = UIEdgeInsets(top: 0, left: 100, bottom: 0, right: 100)
+     
+        tableView.backgroundColor = UIColor.white
+        
         if let path = Bundle.main.path(forResource: "student", ofType: "json"),
            let jsonData = try? Data(contentsOf: URL(fileURLWithPath: path)) {
             parseJSON(data: jsonData)
@@ -30,6 +42,7 @@ class StudentListViewController: UIViewController, UITableViewDataSource, UITabl
 
         tableView.dataSource = self
         tableView.delegate = self
+        
 
     }
 
@@ -38,8 +51,10 @@ class StudentListViewController: UIViewController, UITableViewDataSource, UITabl
             let decoder = JSONDecoder()
             students = try decoder.decode([Student].self, from: data)
             print("Number of students: \(students.count)")
+
         } catch {
             print("Error parsing JSON: \(error)")
+
         }
     }
 
@@ -47,12 +62,17 @@ class StudentListViewController: UIViewController, UITableViewDataSource, UITabl
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return students.count
     }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+
+        return 110.0
+    }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "StudentCell", for: indexPath) as! StudentTableViewCell
 
         let student = students[indexPath.row]
-        cell.studentIDLabel.text = "NIM: \(student.studentID)"
+        cell.studentIDLabel.text = "ID: \(student.studentID)"
         cell.nameLabel.text = student.name
         cell.addressLabel.text = student.address
 
